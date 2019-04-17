@@ -1,0 +1,21 @@
+html{
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+  color: white;
+}
+.container{
+  width: 960px;
+  margin: 0 auto;
+}
+.parent{
+  background-image: url('../photos/banner.png');
+  background-size: cover;
+  height: 30rem;
+  z-index: 0;
+}
+/*Naviagtion Bar and Text*/
+.nav.container{
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: row;
+}
