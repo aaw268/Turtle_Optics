@@ -53,7 +53,7 @@ nav a{
 .banner-text{
   color: black;
   border: 1px solid white;
-  width: 28rem;
+  width: 25rem;
   margin-top: 10rem;
   text-align: center;
   background-color: white;
@@ -61,7 +61,8 @@ nav a{
   font-weight: bold;
   font-size: 2rem;
   line-height: 1.2rem;
-  margin-left: 32rem;
+  float: right;
+  margin-right: 2rem !important;
 }
 /*Photo Section*/
 .photo-row{
@@ -120,4 +121,26 @@ nav a{
 .logo-black img{
   height: 1.5rem;
   padding-right: 1rem;
+}
+/*Responsive Heading Phone*/
+.mobile-nav {
+  display: none;
+}
+
+@media only screen and (max-width: 470px) {
+  nav ul {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+    text-align: right;
+  }
+
+  .nav-section span{
+    display: none;
+  }
+  body{
+    width: 100%;
+  }
 }
